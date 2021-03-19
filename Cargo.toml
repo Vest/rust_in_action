@@ -18,5 +18,12 @@ path = "src/complex.rs"
 test = false
 bench = false
 
+[[bin]]
+name = "renderhex"
+path = "src/renderhex.rs"
+test = false
+bench = false
+
 [dependencies]
 crossbeam = "0.8.0"
+svg = "0.9.1"
